@@ -1,19 +1,14 @@
-# Jetpack Warning Mod
+# Jetpack Warning
 
-A Lethal Company mod that adds visual and audio indicators for when your jetpack may explode.
+A Lethal Company mod that adds visual and audio indicators for when your jetpack may explode.  
+This is an up-to-date fork of the original mod by klepticat, which is no longer maintained.
 
-![warning meter example](https://github.com/klepticat/JetpackWarning/raw/main/assets/example.gif)
+![warning meter example](https://github.com/Hamunii/JetpackWarning/raw/main/assets/example.gif)
 
-## Building
+This is a client side mod, so everyone who wants this feature needs to install this mod.
 
-Place Lethal Company's `Assembly-CSharp.dll`, as well as `UnityEngine.CoreModule.dll`, `UnityEngine.UI.dll`, and `Unity.Netcode.Runtime.dll` in the `dlls/` folder.
+If you found a bug or something, open a new issue on [GitHub](https://github.com/Hamunii/JetpackWarning/issues).
 
-These can be found in the `Lethal Company/Lethal Company_Data/Managed/` folder.
-
-## Making a Thunderstore Package
-
-Thunderstore packages can be generated on Windows using `make_release.ps1`. This will create a file using the version listed in manifest.json at `releases/JetpackWarningX.Y.Z.zip` containing the latest release build from `bin/Release/netstandard2.1/` as well as all required (and optional) Thunderstore files. You may need to edit the script or your build output folder depending on which IDE you use.
-
-Making a Thunderstore package locally can be useful to import the mod to r2modman and make sure the Thunderstore package will work properly.
-
-Alternatively, you can create the .zip manually.
+## Extra: other jetpack mods I recommend
+- [JetpackFallFix by Hamunii](https://thunderstore.io/c/lethal-company/p/Hamunii/JetpackFallFix/) - Fixes buggy jetpack fall damage logic, utilizing slight but necessary creative freedom.
+- [JetpacksCarryBigItems by Hamunii](https://thunderstore.io/c/lethal-company/p/Hamunii/JetpacksCarryBigItems/) - Allows the use of the jetpack while holding a two handed item.

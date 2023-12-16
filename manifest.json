@@ -1,7 +1,7 @@
 {
     "name": "JetpackWarning",
-    "version_number": "2.1.0",
-    "website_url": "https://github.com/klepticat/JetpackWarning",
-    "description": "Adds visual and audio indicators for when your jetpack may explode.",
-    "dependencies": []
+    "version_number": "2.2.0",
+    "website_url": "https://github.com/Hamunii/JetpackWarning",
+    "description": "Adds visual and audio indicators for when your jetpack may explode. Now maintained by Hamunii.",
+    "dependencies": ["BepInEx-BepInExPack-5.4.2100"]
 }
